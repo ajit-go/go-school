@@ -9,7 +9,7 @@ https://github.com/golang/go/wiki/Modules
 
 ## Go Build & packages
 
-packages are name of folders and this is what go looks to impoert in import statement.
+packages are name of folders and this is what go looks to import in import statement.
 Normally the directory name is same as the package declared in the code file in that directory.
 
 Go build looks in path `go env GOPATH`, and normally all packages are kept in this 1 directory
@@ -21,6 +21,7 @@ export PATH="${PATH}:$(go env GOPATH)/bin"
 
 
 http://todsul.com/tech/setup-golang-on-mac-os-x/
+
 https://github.com/golang/go/wiki/GOPATH
 
 
@@ -29,7 +30,7 @@ building from a path
 go build -o hello src/app/hello.go
 ```
 
-building and providion location of binary
+building and providing location of binary
 ```
 export outputBinary=build/hello
 export locationOfMain=/src/app/hello.go
