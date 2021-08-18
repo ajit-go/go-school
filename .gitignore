@@ -16,3 +16,5 @@ node_modules
 *.out
 debug
 pkg
+tmp
+tmp/*
